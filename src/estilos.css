@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(209, 209, 209, 0.952);
+    box-sizing: border-box;
+    height: 500rem;
+}
+
+p{
+    color:rgb(0, 0, 0);    
+    text-align: justify;
+}
+
+.columna{
+    background-color:rgb(198, 238, 161);
+}
+
+/**BANNER**/
+.hero{
+    background-image: url(../src/img/FONDO-PROGRAMADOR.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero::before{
+    content : "";
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.1;
+    position: absolute;
+}
+
+.hero-body{
+    position: relative;
+}
+
+.p-banner{
+    color:white;
+    text-align: center;    
+}

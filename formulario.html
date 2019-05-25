@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <link rel="stylesheet" href="src/estilos.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+    <title>Formulario</title>
+</head>
+<body>
+    <article>
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+                    <div class="field">
+                        <label class="label">Nombre</label>
+                        <div class="control has-icons-left is-loading">
+                          <input class="input is-success is-normal is-rounded" type="text" placeholder="Nombre">
+                          <span class="icon is-left">
+                            <i class="zmdi zmdi-account zmdi-hc-lg"></i>
+                          </span>
+                          <p class="help is-info">Ingrese su nombre</p>
+                        </div>
+                      </div>
+                    <div class="field">
+                        <div class="control has-icons-left">
+                            <div class="select is-success">
+                                <select class="is-hovered">
+                                    <option selected>AÑO DE ESTUDIO</option>
+                                    <option value="CACHIMBO-2020">Cachimbo-2020</option>                            
+                                    <option value="2doanio">2-AÑO</option>
+                                    <option value="3eranio">3-AÑO</option>
+                                    <option value="4toanio">4-AÑO</option>
+                                    <option value="5toanio">5-AÑO</option>
+                                </select>
+                                    <span class="icon is-left">
+                                        <i class="zmdi zmdi-graduation-cap zmdi-hc-lg"></i>
+                                    </span>
+                            </div>                            
+                        </div>
+                    </div> 
+                    <div class="field">
+                        <div class="file is-info">
+                            <label class="file-label">
+                                <input class="file-input" type="file" name="resume">
+                                    <span class="file-cta">
+                                        <span class="file-icon">
+                                            <i class="zmdi zmdi-cloud-upload  zmdi-hc-lg    "></i>
+                                        </span>
+                                        <span class="file-label">
+                                            Seleccione un archivo
+                                        </span>
+                                    </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</body>
+</html>
